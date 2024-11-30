@@ -1,0 +1,120 @@
+#root
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logInBox
+{
+  height: 45%;
+  width: 40%;
+  background-color: rgb(23, 255, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+
+.logInBox input{
+  width: 66%;
+  height: 17%;
+  outline: none;
+  border-radius: inherit;
+  border: 0px;
+  font-size: 22px;
+  padding: 0 2% 0 2%;
+}
+button
+{
+  height: 17%;
+  outline: none;
+  border-radius: inherit;
+  border: 0px;
+  font-size: 24px;
+  background-color: rgb(23, 158, 255);
+  color: white;
+  width: inherit;
+  cursor: pointer;
+
+}
+.ChatBox
+{
+  height: 90%;
+  width: 90%;
+  border-radius: 10px;
+  border: 3% sold rgb(23, 158, 255);
+  display: flex;
+  gap: 4%;
+}
+.chatList
+{
+  height: 98%;
+  width: 33%;
+  background-color: rgb(23, 255, 224);
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  padding: 1%;
+  border-radius: inherit;
+}
+.messegeBox
+{
+  height: 98%;
+  width: 63%;
+  background-color: rgb(71, 71, 71);
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  padding: 1%;
+  border-radius: inherit;
+}
+/* input [type="text"]
+{
+  width: 100%;
+  height: 10%;
+  border:5px solid rgb(23, 255, 224);
+} */
+ 
+.messegeField
+{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2%;
+  overflow-y: scroll;
+}
+.inputField
+{
+  height: 8%;
+  width: 99%;
+  border-radius: inherit;
+  display: grid;
+  grid-template-columns: 92% auto;
+  background-color: rgb(108, 108, 108);
+}
+.inputField input
+{
+  background-color:transparent;
+  border:none ;
+  outline: none;
+  font-size: larger;
+  color: white;
+  padding: 0px 2% 0px 2%;
+}
+
+.inputField button{height:100% ;}
+
+.messegeLeft{
+  padding: 1.5%;
+  border-radius: 4px 20px 20px 20px;
+  background-color: aquamarine;
+  max-width: fit-content;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px;
+}
